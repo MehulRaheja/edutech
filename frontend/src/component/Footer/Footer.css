@@ -1,0 +1,105 @@
+.footer {
+    display: block;
+}
+
+.footer-top {
+    width: 100%;
+    display: inline-block;
+    background: #d0dae3;
+}
+
+.center-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.top-footer-main {
+    width: 100%;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+.lft-top-footer {
+    width: auto;
+    float: left;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.lft-top-footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+li {
+    display: block;
+    transition-duration: .5s;
+}
+
+.lft-top-footer ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    transition: .3 ease-in;
+    -webkit-transition: .3 ease-in;
+    -moz-transition: .3 ease-in;
+}
+
+.right-top-footer {
+    width: auto;
+    float: right;
+    }
+
+.right-top-footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.right-top-footer ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.right-top-footer ul li a span.play-store:before {
+    margin: 0;
+    font-size: 26px;
+    vertical-align: middle;
+}
+
+.right-top-footer ul li a span img {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+
+img {
+    outline: none;
+}
+
+.footer-bottom {
+    width: 100%;
+    /* height: 5rem; */
+    padding: 5px 0;
+    text-align: center;
+    background: #b1bdc9;
+    margin-bottom: 0;
+}
+
+.footer-bottom p{
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}

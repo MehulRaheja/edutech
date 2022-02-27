@@ -77,6 +77,4 @@ router.post('/submit-test', isAuth, authController.submitTest);
 
 router.get('/result', isAuth, authController.getResult);
 
-//for logout
-
 module.exports = router;

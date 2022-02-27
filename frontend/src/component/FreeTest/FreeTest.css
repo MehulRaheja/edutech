@@ -1,0 +1,85 @@
+.main-container {
+    width: auto;
+    height: 40.7rem;
+    /* border: 2px solid #999; */
+    /* border-radius: 10px; */
+    /* box-shadow: 10px 10px 25px #ccc; */
+    text-align: center;
+    background-color: #fff;
+    /* align-items: center; */
+    /* margin: auto; */
+}
+
+h6 {
+    font-size: 2.5rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    /* margin: auto; */
+}
+
+button {
+    font-size: 1.6rem;
+  }
+
+  .button {
+    padding: 1rem;
+    border: 0.1rem #808080 solid;
+    border-radius: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    border: 0.1rem #404040 solid;
+    
+  }
+
+  .button.primary {
+    background-color: rgb(233, 128, 128);
+  }
+
+  .button.primary:hover {
+    background-color: rgb(30, 127, 192);
+  }
+
+/* forms */
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* align-self:flex-end; */
+    /* margin: auto; */
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    padding: 2rem;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+    list-style-type: none;
+    box-shadow: 10px 10px 25px #ccc;
+  }
+
+  .form-container li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  input {
+    padding: 1rem;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+  }
+
+#std, #subject {
+    height: 4rem;
+    /* padding: 5rem; */
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+}

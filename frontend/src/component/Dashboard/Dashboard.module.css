@@ -1,0 +1,9 @@
+
+.heading {
+    margin: 3rem 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}

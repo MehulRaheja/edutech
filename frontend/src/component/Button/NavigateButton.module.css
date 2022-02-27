@@ -1,0 +1,15 @@
+.navigate_button .button {
+    width: auto;
+    background-color: rgb(174, 229, 243);    
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+    box-sizing: border-box;
+    border: 1px solid rgb(92, 186, 214);
+    border-radius: 2px;
+}
+
+.navigate_button .button:hover {
+    background-color: rgb(144, 224, 248);
+}

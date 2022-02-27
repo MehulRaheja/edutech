@@ -114,8 +114,6 @@ module.exports = {
             const error = new Error('User exists already!');
             throw error;
         }
-        // console.log('user signup');
-        // console.log(userInput);
         const hashedPw = await bcrypt.hash(userInput.password, 12);
         console.log(hashedPw);
         const user = new User({
@@ -275,12 +273,3 @@ module.exports = {
         }
     },
 }
-
-// first argument of function is an object which contain all the input elements 
-// we can make it async as already done below
-//  we call ...createdUser._doc, otherwise mongoose will add all the matadata
-// here we want to convert _idObject to string that's why we overwrite it with _id: createdUser._id.toString()
-// we can't use auth middleware in graphql, so we use a library 'validator' and to validate our input fields
-// to get total number of objects use method, e.g. Post.find().countDocuments();
-
-// createUser({ userInput })...         without async

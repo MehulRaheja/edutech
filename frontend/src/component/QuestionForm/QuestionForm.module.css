@@ -1,0 +1,79 @@
+.test_container {
+    width: calc(100% - 25rem);
+    box-sizing: border-box;
+    margin: 50;
+    border-right: 1px solid #ddd;
+    height: calc(100vh - 12.1rem);
+    min-height: 53rem;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.que_no_container {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.que_no {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+}
+
+.marks_notation {
+    margin: 20px;
+    /* padding: 0 10px; */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: flex;
+}
+
+.img {
+    margin: 0;
+    height: 15px;
+    width: 15px;
+    padding-left: 10px;
+    /* padding-bottom: 5px; */
+}
+
+.pee {
+    margin: 0;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+.que_desc {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.opt_form {
+    padding: 1.5rem 2rem;
+}
+
+.opt_inp {
+    margin: 2rem 2rem 2rem 0;
+}
+
+.opt_label {
+    margin: 2rem 2rem 2rem 0;
+}
+
+.button {
+    width: auto;
+    background-color: rgb(243, 242, 174);    
+    margin-left: 20px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+    box-sizing: border-box;
+    border: 1px solid rgb(221, 191, 55);
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-color: rgb(236, 234, 116);
+}

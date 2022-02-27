@@ -33,11 +33,6 @@ exports.getSubject = (req, res, next) => {
         error.statusCode = 422;
         throw error;
     }
-    // if (!req.body) {
-    //   const error = new Error("No data provided.");
-    //   error.statusCode = 422;
-    //   throw error;
-    // }
     const sub = req.body.subject;
     const subData = new Subject({
       subject: sub,

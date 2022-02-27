@@ -1,0 +1,7 @@
+export const TEST_REQUEST = 'TEST_REQUEST';
+export const TEST_SUCCESS = 'TEST_SUCCESS';
+export const TEST_FAIL = 'TEST_FAIL';
+
+export const FREE_TEST_REQUEST = 'FREE_TEST_REQUEST';
+export const FREE_TEST_SUCCESS = 'FREE_TEST_SUCCESS';
+export const FREE_TEST_FAIL = 'FREE_TEST_FAIL';

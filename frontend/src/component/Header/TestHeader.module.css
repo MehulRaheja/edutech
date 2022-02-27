@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    background-color: rgb(53, 145, 182);
+    padding: 10px 0px;
+    display: flex;
+    height: 7rem;
+    box-sizing: border-box;
+}
+
+.container_left {
+    margin-left: 15px;
+}
+
+.button {
+    background-color: rgb(53, 145, 182);
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    margin: 5px 0;
+    margin-left: 15px;
+    vertical-align: middle;
+    border: 0px solid #fff;
+    cursor: pointer;
+}
+
+.pee {
+    padding: 0;
+    margin: 0;
+}
+
+.img {
+    outline: none;
+    vertical-align: middle;
+    transform: rotateZ(180deg);
+}
+
+.cont_lft_content {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.cont_lft_content_top {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}

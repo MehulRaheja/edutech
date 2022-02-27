@@ -73,12 +73,3 @@ module.exports = buildSchema(`
     }
 `);
 
-// query is used to read data and mutation are used to write, edit and delete data
-// RootQuery and RootMutation contains the name of the functions which are defined in the resolver file
-// keywords written after : are types that will be returned and ! specifies that type should be returned otherwise it will give an error
-// if the return type is custom defined type like PostData(above given) data returned should be an object with keys that are specified in the custom defined type and return type of the keys will be their respective type
-// resolver will return the data that is specified in any RootQuery or RootMutation after ':'
-// fields inside () after query name are the data that will come from frontend and its schema would be 'input' not 'type'
-// ID is special type by graphql, it is unique which means it can be used for ids
-// 
-

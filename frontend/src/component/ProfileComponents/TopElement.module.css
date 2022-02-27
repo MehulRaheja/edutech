@@ -1,0 +1,48 @@
+.container {
+    margin: 1rem 0 0;
+}
+
+.top {
+    display: flex;
+    min-width: 10rem;
+    padding: 1rem 2.5rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.pee {
+    text-align: center;
+    margin: auto;
+}
+
+/* .pee:hover {
+    color: rgb(60, 139, 192);
+} */
+
+.pee_active {
+    text-align: center;
+    margin: auto;
+    color: rgb(60, 139, 192);
+}
+
+.bottom {
+    min-width: 10rem;
+    height: 3px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.bottom_active {
+    min-width: 10rem;
+    height: 3px;
+    background-color: rgb(60, 139, 192);
+    box-sizing: border-box;
+}
+
+.container:hover .top {
+    color: rgb(60, 139, 192);
+} 
+
+.container:hover .bottom {
+    background-color: rgb(60, 139, 192);
+} 

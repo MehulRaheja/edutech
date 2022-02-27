@@ -1,0 +1,41 @@
+.container {
+    margin: 5rem auto;
+    width: 60%;
+    min-width: 20rem;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    border-radius: 10px;
+    padding: 3rem;
+    text-align: center;
+}
+
+.button {
+    margin-left: 7.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.input1 {
+    margin-left: 0rem;
+}
+.input2 {
+    margin-left: -2rem;
+}
+
+.link {
+    color: rgb(252, 180, 47);
+    font-size: 12px;
+    margin-left: -3rem;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    .container {
+        width: 500px;
+    }
+}

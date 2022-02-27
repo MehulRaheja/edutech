@@ -74,11 +74,6 @@ exports.postTest = (req, res, next) => {
       error.statusCode = 422;
       throw error;
   }
-  // if (!req.body) {
-  //   const error = new Error("No data provided.");
-  //   error.statusCode = 422;
-  //   throw error;
-  // }
   const title = req.body.title;
   const school = req.body.school;
   const std = req.body.class;

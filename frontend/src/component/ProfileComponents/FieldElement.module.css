@@ -1,0 +1,32 @@
+.odd {
+    padding: 0 3rem;
+    margin: 0;
+    display: flex;
+    width: 40%;
+    min-width: 40rem;
+    max-width: 80rem;
+    background-color: rgb(221, 231, 247);
+}
+
+.even {
+    padding: 0 3rem;
+    margin: 0;
+    display: flex;
+    width: 40%;
+    min-width: 40rem;
+    max-width: 80rem;
+}
+
+.left, .right {
+    width: 20%;
+    font-size: 12px;
+    min-width: 20rem;
+    max-width: 40rem;
+}
+
+/* .right {
+    width: 20%;
+    font-size: 12px;
+    min-width: 20rem;
+    max-width: 40rem;
+} */

@@ -1,0 +1,13 @@
+.pallete_container {
+    width: 25rem;
+    background-color: rgb(204, 228, 235);
+    height: calc(100vh - 12.1rem);
+    min-height: 53rem;
+    box-sizing: border-box;
+    padding: 1rem 0;
+}
+
+.navigate_area {
+    width: 25rem;
+    display: flex;
+}

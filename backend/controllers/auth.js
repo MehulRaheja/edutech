@@ -24,11 +24,6 @@ exports.signup = (req, res, next) => {
         error.statusCode = 422;
         throw error;
     }
-    // if (!req.body) {
-    //     const error = new Error("No data provided.");
-    //     error.statusCode = 422;
-    //     throw error;
-    // }
     const email = req.body.email;
     const password = req.body.password;
     const type = req.body.type;
@@ -79,11 +74,6 @@ exports.signup = (req, res, next) => {
 };
 
 exports.login = (req, res, next) => {
-    // if (!req.body) {
-    //     const error = new Error("No data provided.");
-    //     error.statusCode = 422;
-    //     throw error;
-    // }
     const email = req.body.email;
     const password = req.body.password;
     let loadedUser;
@@ -129,11 +119,6 @@ exports.update = (req, res, next) => {
         error.statusCode = 422;
         throw error;
     }
-    // if (!req.body) {
-    //     const error = new Error("No data provided.");
-    //     error.statusCode = 422;
-    //     throw error;
-    // }
     const email = req.body.email;
     const userId = req.body.userId;
     const password = req.body.password;
@@ -144,11 +129,6 @@ exports.update = (req, res, next) => {
 
     User.findById(userId)
         .then(user => {
-            // if(bcrypt.compare(password, user.password)){
-            //     const error = new Error("Wrong password.");
-            //     error.statusCode = 422;
-            //     throw error;
-            // }
             user.email = email,
             user.type = type,
             user.name = name,
@@ -183,8 +163,6 @@ exports.submitTest = (req, res, next) => {
     const testId = req.body.testId;
     const subject = req.body.subject;
     const answers = req.body.answers;
-    // console.log(req.userId, testId, answers);
-    // console.log(answers);
     let marks = 0;
     let exam;
     Test.findById(testId)
@@ -310,5 +288,3 @@ exports.getResult = (req, res, next) => {
             next(err);
         });
 };
-
-// for logout

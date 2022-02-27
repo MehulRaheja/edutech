@@ -19,9 +19,6 @@ router.post(
         body('title')
             .trim()
             .isLength({ min: 3 }),
-        // body('subject')
-        //     .trim()
-        //     .isLength({ min: 3 }),
     ],
     feedController.postTest);
 

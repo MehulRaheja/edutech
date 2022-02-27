@@ -1,0 +1,14 @@
+.container {
+    min-width: 100%;
+    min-height: 76vh;
+    box-sizing: border-box;
+    padding: 2rem 3rem;
+}
+
+.test_container {
+    padding: 2rem;
+}
+
+.test {
+    margin: 1rem;
+}

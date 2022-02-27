@@ -1,0 +1,30 @@
+.container {
+    margin: 5rem;
+    /* padding: 2rem; */
+    border-radius: 5px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 2px 3px #ccc;
+    background-image: linear-gradient(rgb(231, 143, 143), white, white, white);
+}
+
+.iconWrap {
+    width: 44px;
+    height: 44px;
+    margin: 20px;
+    border-radius: 22px;
+    background-color: #fff;
+}
+
+.icon {
+    margin: 6px 6px 6px 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.textContainer {
+    margin: 10px 20px;
+}
+
+.buttonWrap {
+    margin: 6rem 2rem 3rem;
+}

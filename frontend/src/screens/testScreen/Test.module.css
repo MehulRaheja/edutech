@@ -1,0 +1,18 @@
+/* .main_container {
+    background-color: aqua;
+} */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.test_area {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 12.1rem);
+    min-height: 53rem;
+    box-sizing: border-box;
+}

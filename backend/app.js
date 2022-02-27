@@ -64,22 +64,12 @@ app.use((req, res, next) => {
     next();
 });
 
-// app.use((req, res, next) => {
-//     // res.send('connected to server');
-//     console.log('received request');
-//     next();
-// })
-
 app.use(auth);
 
 app.put('/post-image', (req, res, next) => {
-    // if(!req.isAuth) {
-    //     return res.status(200).json({ message: 'No file provided!' });
-    // }
     if(!req.file) {
         return res.status(200).json({ message: 'No file provided!' });
     }
-    // console.log(req.file);
     if(req.body.oldPath) {
         clearImage(req.body.oldPath);
     }
@@ -125,27 +115,6 @@ app.use((error, req, res, next) => {
     res.status(status).json({ message: message, data: data });
 });
 
-
-// mongoose
-//     .connect(
-//         process.env.DB_ADMIN_URL
-//     )
-//     .then(result => {
-//         const server =  app.listen(process.env.PORT);
-//         // console.log('Client connected1');
-//         const io = require('./socket').init(server,{
-//             cors: {
-//                 origin: '*',
-//                 methods: ['GET', 'POST']
-//             }
-//         });
-//         // console.log('Client connected2');
-//         io.on('connection', socket => {
-//             console.log('Client connected3');
-//         });
-//     })
-//     .catch(err => console.log(err));
-
 mongoose
     .connect(
         process.env.DB_ADMIN_URL
@@ -156,11 +125,3 @@ mongoose
         });
     })
     .catch(err => console.log(err));
-
-// use function graphqlHttp from 'express-graphql'
-// graphqlHttp will take 2 components first is schema i.e. graphql schema and second is rootValue i.e. graphql resolver
-// inside body of graphqlquery always set a key as query because express-graphql will look for it 
-// we add line: graphiql: true, because it allows to use it on browser on localhost/8000/graphql path, Note: it workds with app.use and not app.get
-// formatError(err) receives all the errors in resolver and format them and sends them
-// originalError is thrown by graphql when it detects error in code
-// 

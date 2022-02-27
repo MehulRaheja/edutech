@@ -33,11 +33,6 @@ exports.getStd = (req, res, next) => {
         error.statusCode = 422;
         throw error;
     }
-    // if (!req.body) {
-    //   const error = new Error("No data provided.");
-    //   error.statusCode = 422;
-    //   throw error;
-    // }
     const std = req.body.std;
     const stdData = new Standard({
       std: std,

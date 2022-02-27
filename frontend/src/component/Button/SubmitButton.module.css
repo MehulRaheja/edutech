@@ -1,0 +1,37 @@
+.submit_button .button {
+    width: 23rem;
+    background-color: #0437F2;    
+    margin: 0;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #0437F2;
+    font-size: 1.5rem;
+    font-weight: 300;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.submit_button_series .button {
+    width: 23rem;
+    background-color: rgb(71, 155, 211);    
+    margin: 0;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid rgb(30, 127, 192);
+    font-size: 1.5rem;
+    font-weight: 300;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.submit_button .button:hover {
+    border: 1px solid #0818A8;
+    font-size: 1.8rem;
+}
+
+.submit_button_series .button:hover {
+    border: 1px solid rgb(30, 127, 192);
+    font-size: 1.8rem;
+}
